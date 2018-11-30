@@ -1,0 +1,15 @@
+.lock {
+  background-color: #4da6ff;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-size: 1em;
+  width: 170px;
+  height: auto;
+  color: white;
+}
+
+.lock:hover {
+  background-color: #009999;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.back {
+  background-color: #0059b3;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  width: 160px;
+  height: auto;
+  color: white;
+}
+
+.back:hover {
+  background-color: #004080;
+  cursor: pointer;
+}
+
+.GoBack {
+  margin-bottom: 20px;
+}

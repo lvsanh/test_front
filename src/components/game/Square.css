@@ -1,0 +1,45 @@
+.BoardSquare {
+  flex: 1;
+  min-width: 35px;
+  max-width: 35px;
+  min-height: 35px;
+  max-height: 35px;
+  border: 1px solid #eee;
+  background-color:  #009999;
+}
+
+/* .value-5 { */
+  .ships-5 {
+  background-color: #0000ff;
+}
+
+.ships-4 {
+  background-color: #000033;
+}
+
+.ships-3 {
+  background-color: #0d0d0d;
+}
+
+.ships-2 {
+  background-color: #595959;
+}
+
+.ships-1 {
+  background-color: #b3b3b3;
+}
+
+.guess {
+  min-width: 10px;
+  max-width: 10px;
+  min-height: 10px;
+  max-height: 10px;
+  margin: 12px auto;
+  border-radius: 5px;
+}
+ .guess.value-s {
+  background-color: red;
+}
+.guess.value-w {
+  background-color: blue;
+}

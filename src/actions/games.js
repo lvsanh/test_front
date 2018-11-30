@@ -1,6 +1,5 @@
 import * as request from 'superagent'
 import { baseUrl } from '../constants'
-// import { ADD_GAME, UPDATE_GAME, UPDATE_GAMES, JOIN_GAME_SUCCESS, UPDATE_GAME_SUCCESS, ADD_BOARDS } from './types'
 import {
   UPDATE_GAMES, JOIN_GAME_SUCCESS,
   UPDATE_GAME_SUCCESS, CREATE_GAME_SUCCESS, ADD_BOARD
@@ -84,7 +83,8 @@ export const updateGame = (gameId, board) => (dispatch, getState) => {
     .send({ board })
     .then(result => {
       dispatch({
-        type: UPDATE_GAME_SUCCESS
+        type: UPDATE_GAME_SUCCESS,
+        
       })
     })
     .catch(err => console.error(err))

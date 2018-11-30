@@ -10,7 +10,7 @@
 
 /* .value-5 { */
   .ships-5 {
-  background-color: #ff0000;
+  background-color: #000033;
 }
 
 .ships-4 {
@@ -18,15 +18,15 @@
 }
 
 .ships-3 {
-  background-color: #00ff0d;
+  background-color: #000033;
 }
 
 .ships-2 {
-  background-color: #595959;
+  background-color: #000033;
 }
 
 .ships-1 {
-  background-color: #ff04dd;
+  background-color: #000033;
 }
 
 .guess {
@@ -35,7 +35,7 @@
   min-height: 35px;
   max-height: 35px;
   margin: 0px auto;
-  border-radius: 5px;
+  border-radius: 50%;
 }
  .guess.value-s {
   background-color: red;

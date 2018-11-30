@@ -4,7 +4,6 @@ import PlaceShips from './components/ships/ShipsContainer'
 import GameBattle from './components/game/GameContainer'
 import GamesList from './components/game/GamesList'
 import LoginPage from './components/login/LoginPage'
-import LogoutPage from './components/logout/LogoutPage'
 import Home from './components/Home'
 import SignupPage from './components/signup/SignupPage';
 import { BrowserRouter as Router, Route } from 'react-router-dom'

@@ -27,8 +27,5 @@
     "jest-enzyme": "^6.0.0",
     "react-test-renderer": "^16.2.0"
   },
-  "main": "index.js",
-  "repository": "git@github.com:Ju1111/battleship_frontend.git",
-  "author": "Ju111 <SchneiderJu@gmx.net>",
-  "license": "MIT"
+  "main": "index.js"
 }

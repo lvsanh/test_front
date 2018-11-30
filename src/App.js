@@ -15,7 +15,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">Battleship</h1>
+            
           </header>
           <Route exact path="/" component={Home}/>
           <Route exact path="/login" component={LoginPage} />

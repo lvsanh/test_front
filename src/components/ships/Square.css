@@ -5,7 +5,7 @@
   min-height: 35px;
   max-height: 35px;
   border: 1px solid #eee;
-  background-color:  #009999
+  background-color:  #adbdbd
 ;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .v5 {
-  background-color: #0000ff;
+  background-color: #ff0404;
 }
 
 .v4 {
@@ -27,7 +27,7 @@
 }
 
 .v3 {
-  background-color: #0d0d0d;
+  background-color: #00ff0d;
 }
 
 .v2 {
@@ -35,5 +35,5 @@
 }
 
 .v1 {
-  background-color: #b3b3b3;
+  background-color: #ff04dd;
 }

@@ -2,7 +2,7 @@ div .carrier {
   min-height: 35px;
   max-height: 35px;
   width: 175px;
-  background-color: #0000ff;
+  background-color: #ff0000;
   margin-bottom: 20px;
 }
 
@@ -18,7 +18,7 @@ div .cruiser {
   min-height: 35px;
   max-height: 35px;
   width: 105px;
-  background-color: #0d0d0d;
+  background-color: #00ff0d;
   margin-bottom: 20px;
 }
 
@@ -34,6 +34,6 @@ div .destroyer {
   min-height: 35px;
   max-height: 35px;
   width: 70px;
-  background-color: #b3b3b3;
+  background-color: #ff04dd;
   margin-bottom: 20px;
 }

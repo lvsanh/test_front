@@ -59,7 +59,7 @@ export const joinGame = (gameId) => (dispatch, getState) => {
 export const createGame = () => (dispatch, getState) => {
   const state = getState()
   const jwt = state.currentUser.jwt
-
+  console.log(state)
   request
     .post(`${baseUrl}/games`)
     .set('Authorization', `Bearer ${jwt}`)

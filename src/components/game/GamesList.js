@@ -49,12 +49,14 @@ class GamesList extends PureComponent {
       >
         Create Game
       </Button>
+
       <Button
         color="default"
         variant="raised"
-        onClick={() => history.push('/logout')}>
+        onClick={() => history.push('/')}>
         Logout
       </Button>
+
       <div>
         {games.map(game => this.renderGame(game))}
       </div>
